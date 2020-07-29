@@ -1,0 +1,13 @@
+2020-07-29 16:22:21,518 INFO Main [main] Log4j2ExampleApp started.
+2020-07-29 16:22:21,521 WARN Main [main] Something to warn
+2020-07-29 16:22:21,522 ERROR Main [main] Something failed.
+2020-07-29 16:26:10,341 INFO Main [main] Main started.
+2020-07-29 16:26:10,344 WARN Main [main] Something to warn
+2020-07-29 16:26:10,345 ERROR Main [main] Something failed.
+2020-07-29 16:27:41,779 INFO Main [main] Main started.
+2020-07-29 16:27:41,782 WARN Main [main] Something to warn
+2020-07-29 16:27:41,782 ERROR Main [main] Something failed.
+2020-07-29 16:30:07,568 INFO Main [main] info
+2020-07-29 16:30:07,572 WARN Main [main] warn
+2020-07-29 16:30:07,572 ERROR Main [main] error
+2020-07-29 16:30:07,572 FATAL Main [main] fatal

@@ -1,10 +1,14 @@
 import org.apache.activemq.ActiveMQConnectionFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.jms.*;
 import java.io.*;
 import java.util.Properties;
 
 public class MessageReceiver {
+    private static final Logger logger = LogManager.getLogger();
+
     private String queueName;
     private String url;
     private int mode;
@@ -23,9 +27,9 @@ public class MessageReceiver {
 
         try (InputStream inputStream = new FileInputStream("src/main/resources/application.properties")) {
             properties.load(inputStream);
-            path=properties.getProperty("finalFile.path");
+            path = properties.getProperty("finalFile.path");
         } catch (IOException ex) {
-            ex.printStackTrace();
+            logger.error("file with properties not found");
         }
 
         File file = new File(path);
@@ -34,7 +38,7 @@ public class MessageReceiver {
         try {
             printWriter = new PrintWriter(file);
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            logger.error("file not found");
         }
 
         Connection connection = null;
@@ -64,8 +68,8 @@ public class MessageReceiver {
             printWriter.close();
             session.close();
             connection.close();
-        } catch (Exception ex) {
-            ex.printStackTrace();
+        } catch (JMSException ex) {
+            logger.error("problem with connection");
         }
     }
 

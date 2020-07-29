@@ -1,8 +1,11 @@
 import org.apache.activemq.ActiveMQConnectionFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.jms.*;
 
 public class MessageSender {
+    private static final Logger logger = LogManager.getLogger();
 
     private String queueName;
     private String url;
@@ -34,7 +37,7 @@ public class MessageSender {
             session.close();
             connection.close();
         } catch (JMSException ex) {
-            ex.printStackTrace();
+            logger.error("exception");
         }
     }
 

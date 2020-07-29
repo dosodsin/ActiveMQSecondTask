@@ -1,8 +1,10 @@
-import org.slf4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.apache.activemq.broker.BrokerService;
 
 public class EmbeddedBroker {
+    private static final Logger logger = LogManager.getLogger();
 
     private String url;
     private String queueName;
@@ -26,7 +28,7 @@ public class EmbeddedBroker {
             brokerService.setUseJmx(false);
             brokerService.start();
         } catch (Exception ex) {
-            ex.printStackTrace();
+            logger.error("port already occupied");
         }
     }
 
