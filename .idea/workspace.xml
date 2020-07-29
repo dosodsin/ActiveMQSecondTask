@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad6905c7-d855-4350-adf8-402c8d66c264" name="Default Changelist" comment="" />
+    <list default="true" id="ad6905c7-d855-4350-adf8-402c8d66c264" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/finalFile/FinalFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/finalFile/NonPersistentFinalFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EmbeddedBroker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MessageReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MessageSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NonPersistentSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EmbeddedBroker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EmbeddedBroker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MessageReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MessageReceiver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MessageSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MessageSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NonPersistentSender.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +26,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -31,12 +47,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ActiveMQFirstTask" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.EmbeddedBroker">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="EmbeddedBroker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EmbeddedBroker" />
+      <module name="ActiveMQSecondTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ActiveMQSecondTask" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -51,6 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.EmbeddedBroker" />
         <item itemvalue="Application.MessageSender" />
       </list>
@@ -67,6 +91,10 @@
       <option name="presentableId" value="Default" />
       <updated>1595571870898</updated>
       <workItem from="1595571873937" duration="2398000" />
+      <workItem from="1595683619707" duration="596000" />
+      <workItem from="1595869914879" duration="621000" />
+      <workItem from="1595942860245" duration="1383000" />
+      <workItem from="1596003517944" duration="1238000" />
     </task>
     <servers />
   </component>
@@ -78,25 +106,29 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1697" y="281" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1595572499985" />
-    <state width="1203" height="266" key="GridCell.Tab.0.bottom" timestamp="1595574278123">
+    <state width="1203" height="266" key="GridCell.Tab.0.bottom" timestamp="1596005569681">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1203" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1595574278123" />
-    <state width="1203" height="266" key="GridCell.Tab.0.center" timestamp="1595574278122">
+    <state width="1203" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1596005569681" />
+    <state width="1203" height="266" key="GridCell.Tab.0.center" timestamp="1596005569681">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1203" height="266" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1595574278122" />
-    <state width="1203" height="266" key="GridCell.Tab.0.left" timestamp="1595574278122">
+    <state width="1203" height="266" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1596005569681" />
+    <state width="1203" height="266" key="GridCell.Tab.0.left" timestamp="1596005569681">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1203" height="266" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1595574278122" />
-    <state width="1203" height="266" key="GridCell.Tab.0.right" timestamp="1595574278122">
+    <state width="1203" height="266" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1596005569681" />
+    <state width="1203" height="266" key="GridCell.Tab.0.right" timestamp="1596005569681">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1203" height="266" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1595574278122" />
+    <state width="1203" height="266" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1596005569681" />
     <state x="1432" y="166" key="SettingsEditor" timestamp="1595573599272">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1432" y="166" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1595573599272" />
+    <state x="1312" y="225" key="new project wizard" timestamp="1595870703365">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1312" y="225" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1595870703365" />
   </component>
 </project>
