@@ -37,7 +37,7 @@ public class MessageSender {
             session.close();
             connection.close();
         } catch (JMSException ex) {
-            logger.error("exception");
+            logger.error("exception",ex.getMessage());
         }
     }
 

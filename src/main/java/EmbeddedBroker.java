@@ -28,7 +28,7 @@ public class EmbeddedBroker {
             brokerService.setUseJmx(false);
             brokerService.start();
         } catch (Exception ex) {
-            logger.error("port already occupied");
+            logger.error("port already occupied",ex.getMessage());
         }
     }
 

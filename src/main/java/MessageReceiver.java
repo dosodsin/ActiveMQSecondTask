@@ -29,7 +29,7 @@ public class MessageReceiver {
             properties.load(inputStream);
             path = properties.getProperty("finalFile.path");
         } catch (IOException ex) {
-            logger.error("file with properties not found");
+            logger.error("file with properties not found",ex.getMessage());
         }
 
         File file = new File(path);
@@ -38,7 +38,7 @@ public class MessageReceiver {
         try {
             printWriter = new PrintWriter(file);
         } catch (FileNotFoundException e) {
-            logger.error("file not found");
+            logger.error("file not found",e.getMessage());
         }
 
         Connection connection = null;
@@ -69,7 +69,7 @@ public class MessageReceiver {
             session.close();
             connection.close();
         } catch (JMSException ex) {
-            logger.error("problem with connection");
+            logger.error("problem with connection",ex.getMessage());
         }
     }
 

@@ -3,19 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="ad6905c7-d855-4350-adf8-402c8d66c264" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activemq-data/broker1/KahaDB/db-1.log" beforeDir="false" afterPath="$PROJECT_DIR$/activemq-data/broker1/KahaDB/db-1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activemq-data/broker1/KahaDB/db.data" beforeDir="false" afterPath="$PROJECT_DIR$/activemq-data/broker1/KahaDB/db.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activemq-data/broker1/KahaDB/lock" beforeDir="false" afterPath="$PROJECT_DIR$/activemq-data/broker1/KahaDB/lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log4j2.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FinalFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalFile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/EmbeddedBroker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EmbeddedBroker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MessageReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MessageReceiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MessageSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/EmbeddedBroker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EmbeddedBroker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/MessageReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MessageReceiver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/MessageSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MessageSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Example1" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -74,9 +73,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="ActiveMQSecondTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.EmbeddedBroker" />
         <item itemvalue="Application.MessageSender" />
       </list>
@@ -99,6 +106,7 @@
       <workItem from="1596003517944" duration="1238000" />
       <workItem from="1596005861988" duration="26000" />
       <workItem from="1596027548638" duration="2308000" />
+      <workItem from="1596090831047" duration="6962000" />
     </task>
     <servers />
   </component>
@@ -106,26 +114,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1697" y="281" key="FileChooserDialogImpl" timestamp="1595572499985">
+    <state x="1726" y="196" key="#com.intellij.ide.util.MemberChooser" timestamp="1596094288786">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1697" y="281" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1595572499985" />
-    <state width="1203" height="266" key="GridCell.Tab.0.bottom" timestamp="1596030077101">
+    <state x="1726" y="196" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1596094288786" />
+    <state x="1697" y="281" key="FileChooserDialogImpl" timestamp="1596092277464">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1203" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1596030077101" />
-    <state width="1203" height="266" key="GridCell.Tab.0.center" timestamp="1596030077100">
+    <state x="1697" y="281" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1596092277464" />
+    <state width="1203" height="266" key="GridCell.Tab.0.bottom" timestamp="1596097991670">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1203" height="266" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1596030077100" />
-    <state width="1203" height="266" key="GridCell.Tab.0.left" timestamp="1596030077100">
+    <state width="1203" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1596097991670" />
+    <state width="1203" height="266" key="GridCell.Tab.0.center" timestamp="1596097991670">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1203" height="266" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1596030077100" />
-    <state width="1203" height="266" key="GridCell.Tab.0.right" timestamp="1596030077100">
+    <state width="1203" height="266" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1596097991670" />
+    <state width="1203" height="266" key="GridCell.Tab.0.left" timestamp="1596097991670">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1203" height="266" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1596030077100" />
+    <state width="1203" height="266" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1596097991670" />
+    <state width="1203" height="266" key="GridCell.Tab.0.right" timestamp="1596097991670">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1203" height="266" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1596097991670" />
     <state x="1432" y="166" key="SettingsEditor" timestamp="1596028934837">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

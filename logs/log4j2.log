@@ -1,13 +1,107 @@
-2020-07-29 16:22:21,518 INFO Main [main] Log4j2ExampleApp started.
-2020-07-29 16:22:21,521 WARN Main [main] Something to warn
-2020-07-29 16:22:21,522 ERROR Main [main] Something failed.
-2020-07-29 16:26:10,341 INFO Main [main] Main started.
-2020-07-29 16:26:10,344 WARN Main [main] Something to warn
-2020-07-29 16:26:10,345 ERROR Main [main] Something failed.
-2020-07-29 16:27:41,779 INFO Main [main] Main started.
-2020-07-29 16:27:41,782 WARN Main [main] Something to warn
-2020-07-29 16:27:41,782 ERROR Main [main] Something failed.
-2020-07-29 16:30:07,568 INFO Main [main] info
-2020-07-29 16:30:07,572 WARN Main [main] warn
-2020-07-29 16:30:07,572 ERROR Main [main] error
-2020-07-29 16:30:07,572 FATAL Main [main] fatal
+2020-07-30 10:06:08,650 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:06:08,681 ERROR Main [main] Exception
+2020-07-30 10:06:54,294 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:06:54,301 ERROR Main [main] Exception
+2020-07-30 10:09:54,654 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:09:54,661 ERROR Main [main] Exception
+2020-07-30 10:11:38,507 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:11:38,514 ERROR Main [main] Exception
+2020-07-30 10:19:48,663 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:19:48,671 ERROR Main [main] Exception
+2020-07-30 10:21:15,936 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:21:15,953 ERROR Main [main] Exception
+2020-07-30 10:22:53,947 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:22:53,954 ERROR Main [main] Exception
+2020-07-30 10:23:33,529 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:23:33,536 ERROR Main [main] Exception
+2020-07-30 10:24:11,386 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:26:52,618 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:29:16,293 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:29:16,300 ERROR Main [main] Exception
+java.lang.IllegalArgumentException: Invalid broker URI: "vm://broker"
+	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:235) ~[activemq-all-5.16.0.jar:5.16.0]
+	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:196) ~[activemq-all-5.16.0.jar:5.16.0]
+	at MessageSender.sendMessage(MessageSender.java:23) ~[classes/:?]
+	at Main.main(Main.java:43) [classes/:?]
+Caused by: java.net.URISyntaxException: Illegal character in scheme name at index 0: "vm://broker"
+	at java.net.URI$Parser.fail(URI.java:2915) ~[?:?]
+	at java.net.URI$Parser.checkChars(URI.java:3086) ~[?:?]
+	at java.net.URI$Parser.checkChar(URI.java:3096) ~[?:?]
+	at java.net.URI$Parser.parse(URI.java:3111) ~[?:?]
+	at java.net.URI.<init>(URI.java:600) ~[?:?]
+	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:233) ~[activemq-all-5.16.0.jar:5.16.0]
+	... 3 more
+2020-07-30 10:29:48,952 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:29:48,964 ERROR Main [main] Exception
+java.lang.IllegalArgumentException: Invalid broker URI: "vm://broker"
+	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:235) ~[activemq-all-5.16.0.jar:5.16.0]
+	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:196) ~[activemq-all-5.16.0.jar:5.16.0]
+	at MessageSender.sendMessage(MessageSender.java:23) ~[classes/:?]
+	at Main.main(Main.java:44) [classes/:?]
+Caused by: java.net.URISyntaxException: Illegal character in scheme name at index 0: "vm://broker"
+	at java.net.URI$Parser.fail(URI.java:2915) ~[?:?]
+	at java.net.URI$Parser.checkChars(URI.java:3086) ~[?:?]
+	at java.net.URI$Parser.checkChar(URI.java:3096) ~[?:?]
+	at java.net.URI$Parser.parse(URI.java:3111) ~[?:?]
+	at java.net.URI.<init>(URI.java:600) ~[?:?]
+	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:233) ~[activemq-all-5.16.0.jar:5.16.0]
+	... 3 more
+2020-07-30 10:30:44,394 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:30:44,401 ERROR Main [main] Exception
+java.lang.IllegalArgumentException: Invalid broker URI: "vm://broker"
+	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:235) ~[activemq-all-5.16.0.jar:5.16.0]
+	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:196) ~[activemq-all-5.16.0.jar:5.16.0]
+	at MessageSender.sendMessage(MessageSender.java:23) ~[classes/:?]
+	at Main.main(Main.java:44) [classes/:?]
+Caused by: java.net.URISyntaxException: Illegal character in scheme name at index 0: "vm://broker"
+	at java.net.URI$Parser.fail(URI.java:2915) ~[?:?]
+	at java.net.URI$Parser.checkChars(URI.java:3086) ~[?:?]
+	at java.net.URI$Parser.checkChar(URI.java:3096) ~[?:?]
+	at java.net.URI$Parser.parse(URI.java:3111) ~[?:?]
+	at java.net.URI.<init>(URI.java:600) ~[?:?]
+	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:233) ~[activemq-all-5.16.0.jar:5.16.0]
+	... 3 more
+2020-07-30 10:31:59,837 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:31:59,847 ERROR Main [main] Exception
+java.lang.IllegalArgumentException: Invalid broker URI: "vm://broker"
+	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:235) ~[activemq-all-5.16.0.jar:5.16.0]
+	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:196) ~[activemq-all-5.16.0.jar:5.16.0]
+	at MessageSender.sendMessage(MessageSender.java:23) ~[classes/:?]
+	at Main.main(Main.java:54) [classes/:?]
+Caused by: java.net.URISyntaxException: Illegal character in scheme name at index 0: "vm://broker"
+	at java.net.URI$Parser.fail(URI.java:2915) ~[?:?]
+	at java.net.URI$Parser.checkChars(URI.java:3086) ~[?:?]
+	at java.net.URI$Parser.checkChar(URI.java:3096) ~[?:?]
+	at java.net.URI$Parser.parse(URI.java:3111) ~[?:?]
+	at java.net.URI.<init>(URI.java:600) ~[?:?]
+	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:233) ~[activemq-all-5.16.0.jar:5.16.0]
+	... 3 more
+2020-07-30 10:35:18,706 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:35:18,716 ERROR Main [main] Exception
+java.lang.IllegalArgumentException: Invalid broker URI: "vm://broker"
+	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:235) ~[activemq-all-5.16.0.jar:5.16.0]
+	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:196) ~[activemq-all-5.16.0.jar:5.16.0]
+	at MessageSender.sendMessage(MessageSender.java:23) ~[classes/:?]
+	at Main.main(Main.java:44) [classes/:?]
+Caused by: java.net.URISyntaxException: Illegal character in scheme name at index 0: "vm://broker"
+	at java.net.URI$Parser.fail(URI.java:2915) ~[?:?]
+	at java.net.URI$Parser.checkChars(URI.java:3086) ~[?:?]
+	at java.net.URI$Parser.checkChar(URI.java:3096) ~[?:?]
+	at java.net.URI$Parser.parse(URI.java:3111) ~[?:?]
+	at java.net.URI.<init>(URI.java:600) ~[?:?]
+	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:233) ~[activemq-all-5.16.0.jar:5.16.0]
+	... 3 more
+2020-07-30 10:49:04,667 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:49:04,675 ERROR Main [main] Exception
+2020-07-30 10:49:24,605 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:49:24,616 ERROR Main [main] Exception
+2020-07-30 10:50:13,064 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:50:13,072 ERROR Main [main] Exception
+2020-07-30 10:51:29,868 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:51:29,876 ERROR Main [main] Exception
+2020-07-30 10:58:37,912 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:58:37,919 ERROR Main [main] Exception
+2020-07-30 10:59:39,072 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 10:59:39,082 ERROR Main [main] Exception
+2020-07-30 11:00:24,258 ERROR EmbeddedBroker [main] port already occupied
+2020-07-30 11:00:24,267 ERROR Main [main] Exception
