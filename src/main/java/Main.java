@@ -20,9 +20,10 @@ public class Main {
 
     public static void main(String[] args) {
         Properties properties = new Properties();
-
+        String pathToFinalFile = "";
         try (InputStream inputStream = new FileInputStream("src/main/resources/application.properties")) {
             properties.load(inputStream);
+            pathToFinalFile= properties.getProperty("finalFile.path");
             url = properties.getProperty("broker.url");
             queueName = properties.getProperty("queueName");
             isPersistent = (Boolean.parseBoolean(properties.getProperty("isPersistent")));
@@ -41,7 +42,7 @@ public class Main {
             broker.runBroker();
 
             messageSender.sendMessage(url, sessionMode, isTransacted);
-            messageReceiver.receiveMessage(url, queueName, sessionMode, isTransacted);
+            messageReceiver.receiveMessage(url, queueName, sessionMode, isTransacted,pathToFinalFile);
 
 
         } catch (Exception ex) {

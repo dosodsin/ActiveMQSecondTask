@@ -21,18 +21,8 @@ public class MessageReceiver {
         this.isTransacted = isTransacted;
     }
 
-    public void receiveMessage(String url, String queueName, int mode, boolean isTransacted) {
-        Properties properties = new Properties();
-        String path = "";
-
-        try (InputStream inputStream = new FileInputStream("src/main/resources/application.properties")) {
-            properties.load(inputStream);
-            path = properties.getProperty("finalFile.path");
-        } catch (IOException ex) {
-            logger.error("file with properties not found",ex.getMessage());
-        }
-
-        File file = new File(path);
+    public void receiveMessage(String url, String queueName, int mode, boolean isTransacted, String pathToFinalFile) {
+        File file = new File(pathToFinalFile);
         PrintWriter printWriter = null;
 
         try {
